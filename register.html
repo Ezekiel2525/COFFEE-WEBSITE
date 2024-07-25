@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE SHOP - REGISTRATION PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="register.html"><img src="images/logo.png"></a>
+
+            <div class="navlinks" id="Navlinks">
+                <p class="timesbar" onclick="hidemenu()">&times;</p>
+                <ul>
+                    <li><a href="register.html">REGISTER</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                </ul>
+            </div>
+            <img src="images/menu.png" class="menuicon" onclick="showmenu()">
+        </nav>
+
+        <div class="registerform">
+            <h3>REGISTRATION</h3>
+            <form>
+                <div class="form-group">
+                    <label for="fullname">FULLNAME</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">PASSWORD</label>
+                    <input type="password">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">CONFIRM PASSWORD</label>
+                    <input type="password">
+                </div>
+                <button type="submit" class="regbtn">
+                    <a href="login.html">REGISTER</a>
+                </button>
+
+                <div class="formsign">
+                    <p>Already have an account?<b><a class="accreg" href="login.html">Sign in</a></b></p>
+                </div>
+                
+            </form>
+        </div>
+    </header>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
